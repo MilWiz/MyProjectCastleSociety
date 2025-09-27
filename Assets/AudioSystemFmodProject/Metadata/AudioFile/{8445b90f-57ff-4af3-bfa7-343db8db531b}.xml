@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8445b90f-57ff-4af3-bfa7-343db8db531b}">
+		<property name="assetPath">
+			<value>Music/return-to-me-my-love-medieval-love-song-363807.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>159.55591836734695</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6f1923e9-476e-4194-82aa-72d66b8d8858}</destination>
+		</relationship>
+	</object>
+</objects>
