@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6c5d8504-d9ec-403d-8f3e-4b694e0ec0a7}">
+		<property name="assetPath">
+			<value>SFX/11 Metallic Twang.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.2666666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6f1923e9-476e-4194-82aa-72d66b8d8858}</destination>
+		</relationship>
+	</object>
+</objects>
