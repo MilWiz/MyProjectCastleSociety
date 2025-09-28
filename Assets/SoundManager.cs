@@ -9,6 +9,7 @@ public class SoundManager : MonoBehaviour
     FMOD.Studio.EventInstance ButtonSound, GameMusic, OptionsMenuMusic;
     public GameObject a;
     public Button[] buttons;
+    public Button yes;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -25,13 +26,19 @@ public class SoundManager : MonoBehaviour
         {
             buttons[i].onClick.AddListener(ButtonListener);
         }
+        yes.onClick.AddListener(yesButtonListener);
+
         GameMusic.start();
 
     }
 
-
-  private void ButtonListener()
+    private void yesButtonListener()
     {
+        ButtonSound.start();
+        GameMusic.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+    }
+    private void ButtonListener()
+    {   
         //RuntimeManager.PlayOneShot(ButtonSound, a.transform.position);
         //ButtonSound.start();
         //Channel channel;
