@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Text1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: acc61dd01220314459a4b6305b760dcc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 67579453440
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932110934016
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9003326021632
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9105855782912
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14711752794112
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16381048037376
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16451667533824
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16498580824064
+    m_Localized: Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16603832688640
+    m_Localized: 'Language: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16674468962304
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183949243228160
+    m_Localized: 'This game was made by the following students:
+
+      Bondis Stylianos
+      21390148
+
+      Hatzikos Peter  21390245
+
+      Smirnakis Dimitris 18390243
+
+      Vrachnos
+      Simeon - Dimitrios 711090059'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185241072082944
+    m_Localized: 'Fullscreen: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187638775324672
+    m_Localized: 'Resolution: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187740835323904
+    m_Localized: 'Quality: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187958842662912
+    m_Localized: Greek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188028145147904
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188076371255296
+    m_Localized: 'Output Device: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188228951646208
+    m_Localized: 'Master Volume:  '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188277932728320
+    m_Localized: 'Music Volume:  '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188380558958592
+    m_Localized: 'SFX Volume: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446065434992640
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446280137220096
+    m_Localized: Exit to Desktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451488846225408
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465689836822528
+    m_Localized: Game Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465783277527040
+    m_Localized: Are you sure you want to quit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465836956229632
+    m_Localized: Are you sure you want to exit to Desktop?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10099679153659904
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10100053738561536
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19283605680070656
+    m_Localized: Gamepad Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19283634251669504
+    m_Localized: Keyboard Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21272220094210048
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21621895020191744
+    m_Localized: Talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21622120237539328
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22326470769418240
+    m_Localized: Welcome to our beautiful Castle Society!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26848165735735296
+    m_Localized: 'Castle Society: ForGate'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26850329694609408
+    m_Localized: Options Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27081840540819456
+    m_Localized: General Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27081966273470464
+    m_Localized: Video Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082053556936704
+    m_Localized: Audio Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082113820696576
+    m_Localized: Controller Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082192983990272
+    m_Localized: Keyboard Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082285275455488
+    m_Localized: Gamepad Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30375982935089152
+    m_Localized: 'Open Map: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30376314322853888
+    m_Localized: 'Open Backpack:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30376441859055616
+    m_Localized: 'Open Pause Menu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30376720637665280
+    m_Localized: Player Controlls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30382758703177728
+    m_Localized: Press the new key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535920042942464
+    m_Localized: Bible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534420956749824
+    m_Localized: 'Talking to People:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534509162962944
+    m_Localized: 'Moving Player Forward:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534989347856384
+    m_Localized: 'Moving Player Back:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534999493877760
+    m_Localized: 'Moving Player Left:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535238195912704
+    m_Localized: 'Crouch:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535013486075904
+    m_Localized: 'Running:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535010436816896
+    m_Localized: 'Jumping:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535006850686976
+    m_Localized: 'Moving Player Right:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535837276741632
+    m_Localized: Axe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536045259694080
+    m_Localized: Books
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536091594170368
+    m_Localized: Box with Fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536195323502592
+    m_Localized: CandleStick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536267452948480
+    m_Localized: Crossbow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536429030121472
+    m_Localized: Egg Basket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536508721897472
+    m_Localized: Fishing Rod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536562937470976
+    m_Localized: Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536631694696448
+    m_Localized: Helmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536678750593024
+    m_Localized: Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536781364240384
+    m_Localized: Loaf Basket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536866433114112
+    m_Localized: Long Bow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536954328948736
+    m_Localized: Rake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537010650062848
+    m_Localized: Scrolls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537062235807744
+    m_Localized: Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537125389443072
+    m_Localized: Sickle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537194238943232
+    m_Localized: Silk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537254750167040
+    m_Localized: Sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537305325084672
+    m_Localized: Vase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535894554157056
+    m_Localized: Medieval axes were used as both tools and weapons, with different
+      types designed for specific roles. This one is used for cutting wood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535958076891136
+    m_Localized: Christianity in medieval times was a huge religion and it still
+      is to this day. It dominated Medieval Europe and it was important for politics
+      and daily life. The Latin Vulgate was a translation of the Bible by Saint Jerome,
+      at that time. Manuscripts were made from the Bible and finally portions of
+      the Bible were being read in Churces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536066319294464
+    m_Localized: Books in medieval times were very expensive, hard-copied and not
+      as common as they are today. Scribes at those times were creating manuscripts
+      of books to keep their context alive throughout history. Back then there were
+      no digital forms, so they had to be copied by hand. In medieval times there
+      were books of poetry, religious works, story collections and more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536159055355904
+    m_Localized: Fishing was an important activity back in medieval times. It was
+      a vital sources of food and trading and it provided economical growth. This
+      is a box with fish that will give off a terrible smell.... Why did you buy
+      this again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536230467575808
+    m_Localized: Candlesticks as weird as it may seem were very important for medieval
+      times. Those were used to light up the dark(since there was no electricity
+      back then) to provide a useful light source in need. There were used in houses,
+      churches and finally public spaces. The simplest form of domestic candlestick
+      was a block of wool into the top of which an iron spike was driven vertically.
+      The lower end was impaled on the spike and the upper end lighted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536391453351936
+    m_Localized: Medieval crossbows were a highly effective weapon that became important
+      from the 10th Century. This weapon was capable of penetrating armor with minimal
+      training(since all you had to do was shoot from afar). It was an enhancement
+      of bows and it was used to fire arrows at soldiers, killing them in the process.
+      The first medieval crossbows were made of wood, usually yew and olive wood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536468162977792
+    m_Localized: 'Basket full of eggs. In medieval times meat, dairy and eggs were
+      food related in animal products that were very useful in medieval times for
+      trading. One question though still remains: Did the chiicken or the egg came
+      out first?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536534894354432
+    m_Localized: This tool is used for fishing. Fishing rods back then were often
+      simple poles. Along side those tools, there were also nets that were being
+      used for trapping fish and storage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536596491902976
+    m_Localized: Hammers just like axes in medieval times were both used as tools
+      and weapons. The hammers that were used as tools were used by blacksmiths to
+      shape materials whilst battle hammers were used to destroy heavy armour.. What
+      time is it?... It's Hammer Time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536651449868288
+    m_Localized: Helmets were used by soldiers in medieval times as armour components
+      for protection. This particular model that is used for an icon was not generally
+      used in medieval times.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536708911833088
+    m_Localized: Knife =). Knives in medieval times were very useful tools and also
+      weapons for self-defense. Forks were not common in medieval times so people
+      had to use knives instead. Daggers were mostly used for battle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536818982952960
+    m_Localized: Bread. Bread was a simple food back in medieval times and it indicated
+      your social status. If you had white bread you were richer whilst darker bread
+      was associated with poverty. It was also used in sieges because it was cheaper.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Text1 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Text1
+  m_TableCollectionNameGuidString: acc61dd01220314459a4b6305b760dcc
+  m_Entries:
+  - m_Id: 67579453440
+    m_Key: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932110934016
+    m_Key: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9003326021632
+    m_Key: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9105855782912
+    m_Key: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14711752794112
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16381048037376
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16451667533824
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16498580824064
+    m_Key: Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16603832688640
+    m_Key: 'Language: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16674468962304
+    m_Key: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183949243228160
+    m_Key: CreditsText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185241072082944
+    m_Key: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187638775324672
+    m_Key: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187740835323904
+    m_Key: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187958842662912
+    m_Key: Greek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188028145147904
+    m_Key: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188076371255296
+    m_Key: Output Device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188228951646208
+    m_Key: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188277932728320
+    m_Key: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188380558958592
+    m_Key: SFX Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446065434992640
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446280137220096
+    m_Key: Exit To Desktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451488846225408
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465689836822528
+    m_Key: Game Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465783277527040
+    m_Key: Are you sure you want to quit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465836956229632
+    m_Key: Are you sure you want to exit to Desktop?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10099679153659904
+    m_Key: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10100053738561536
+    m_Key: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19283605680070656
+    m_Key: Gamepad Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19283634251669504
+    m_Key: Keyboard Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21272220094210048
+    m_Key: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21621895020191744
+    m_Key: Talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21622120237539328
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22326470769418240
+    m_Key: Sentence1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26848165735735296
+    m_Key: CastleSociety
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26850329694609408
+    m_Key: OptionsMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27081840540819456
+    m_Key: General Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27081966273470464
+    m_Key: Video Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082053556936704
+    m_Key: Audio Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082113820696576
+    m_Key: Controller Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082192983990272
+    m_Key: Keyboard Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27082285275455488
+    m_Key: Gamepad Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30375982935089152
+    m_Key: Mapbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30376314322853888
+    m_Key: InventoryButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30376441859055616
+    m_Key: PauseButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534420956749824
+    m_Key: TalkingToNPCs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534509162962944
+    m_Key: MovingPlayerUpwards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534989347856384
+    m_Key: MovingPlayerDownwards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30376720637665280
+    m_Key: Player Controlls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30382758703177728
+    m_Key: PressAnyButtonToKeyRebind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30534999493877760
+    m_Key: MovingPlayerLeft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535006850686976
+    m_Key: MovingPlayerRight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535010436816896
+    m_Key: PlayerJumping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535013486075904
+    m_Key: PlayerRunning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535238195912704
+    m_Key: PlayerCrouching
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535837276741632
+    m_Key: AxeName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535894554157056
+    m_Key: AxeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535920042942464
+    m_Key: BibleName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30535958076891136
+    m_Key: BibleDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536045259694080
+    m_Key: BooksName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536066319294464
+    m_Key: BooksDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536091594170368
+    m_Key: BoxWithFishName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536159055355904
+    m_Key: BoxWithFishDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536195323502592
+    m_Key: CandleStickName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536230467575808
+    m_Key: CandleStickDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536267452948480
+    m_Key: CrossbowName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536391453351936
+    m_Key: CrossbowDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536429030121472
+    m_Key: EggBasketName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536468162977792
+    m_Key: EggBasketDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536508721897472
+    m_Key: FishingRodName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536534894354432
+    m_Key: FishingRodDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536562937470976
+    m_Key: HammerName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536596491902976
+    m_Key: HammerDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536631694696448
+    m_Key: HelmetName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536651449868288
+    m_Key: HelmetDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536678750593024
+    m_Key: KnifeName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536708911833088
+    m_Key: KnifeDescripiton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536781364240384
+    m_Key: LoafBasketName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536818982952960
+    m_Key: LoafBasketDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536866433114112
+    m_Key: LongBowName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536917070946304
+    m_Key: LongBowDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536954328948736
+    m_Key: RakeName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30536983412252672
+    m_Key: RakeDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537010650062848
+    m_Key: ScrollsName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537032489803776
+    m_Key: ScrollsDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537062235807744
+    m_Key: ShieldsName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537089171628032
+    m_Key: ShieldsDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537125389443072
+    m_Key: SickleName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537147698946048
+    m_Key: SickleDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537194238943232
+    m_Key: SilkName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537219706757120
+    m_Key: SilkDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537254750167040
+    m_Key: SwordName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537273863610368
+    m_Key: SwordDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537305325084672
+    m_Key: VaseName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30537324803432448
+    m_Key: VaseDescription
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6194439690385359082
+  references:
+    version: 2
+    RefIds:
+    - rid: 6194439690385359082
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1751572720370
