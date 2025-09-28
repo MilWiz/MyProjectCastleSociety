@@ -1,0 +1,2 @@
+One more note: The inventory system is not finished and the npc trading finished hasnt started. Also there is no talking npc other than the one that is near spawn. 
+We couldnt build the project. This project requires a powerful computer to build.
