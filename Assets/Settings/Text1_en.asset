@@ -330,7 +330,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 30535894554157056
     m_Localized: "Medieval axes were\nused as both \ntools and weapons, \nwith different
-      types\ndesigned for specific roles.\nThis one is \nused for cutting \nwood.\n"
+      types\ndesigned for specific\nroles. This one is \nused for cutting \nwood.\n"
     m_Metadata:
       m_Items: []
   - m_Id: 30535958076891136
