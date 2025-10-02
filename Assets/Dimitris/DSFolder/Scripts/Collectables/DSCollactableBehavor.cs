@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
+
 
 public class DSCollactableBehavor : MonoBehaviour
 {
@@ -11,8 +13,12 @@ public class DSCollactableBehavor : MonoBehaviour
     public float upDownDistance = 0.5f; // Distance to move up and down
     public Image icon; // Icon to represent the collectable on the map
     [Header("Audio Effects")]
-    public AudioClip collectAudioClip; // Sound to play upon collection
-    public AudioSource audioSource; // Audio source to play the sound
+    //public AudioClip collectAudioClip; // Sound to play upon collection
+
+    //public AudioSource audioSource; // Audio source to play the sound
+
+    FMOD.Studio.EventInstance Coinsfx;
+    
     [Header("Visual Effects")] // TODO : Later on add particle effects
     public GameObject particleEffect;// Particle effect object to play upon collection
 
@@ -22,6 +28,8 @@ public class DSCollactableBehavor : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        Coinsfx = RuntimeManager.CreateInstance("event:/Master/SFX/CoinCollectSFX");
+        RuntimeManager.AttachInstanceToGameObject(Coinsfx, this.transform, false);
         // Find the collectables manager in the scene
         m_collectablesManagerObject = GameObject.FindWithTag("CollectableManagerTag");
         if (m_collectablesManagerObject != null)
@@ -37,6 +45,7 @@ public class DSCollactableBehavor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Coinsfx.set3DAttributes(RuntimeUtils.To3DAttributes(this.transform));
         // rotate object around y and z axis
         transform.Rotate(0, rotateSpeed * Time.deltaTime, rotateSpeed * Time.deltaTime);
        
@@ -56,8 +65,11 @@ public class DSCollactableBehavor : MonoBehaviour
             if (dsPlayerCollectableBehavor != null)
             {
                 dsPlayerCollectableBehavor.AddPoints(points);
+                /*
                 if (audioSource != null && collectAudioClip != null)
                     audioSource.PlayOneShot(collectAudioClip); // Play collection sound
+                    */
+                Coinsfx.start();
                 m_collectablesManagerScript.removeCollectable(this.gameObject); // Remove from manager's list
                 Destroy(gameObject); // Destroy the collectable item after collection
                 

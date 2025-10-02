@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 33412944872136786}
   - component: {fileID: 23357480704612920}
   - component: {fileID: 65899820994891096}
-  - component: {fileID: 4782409222476289417}
-  - component: {fileID: 4482601512231437813}
   m_Layer: 0
   m_Name: WoodenHouse_shutter_R_L
   m_TagString: Untagged
@@ -110,38 +108,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.47727585, y: 1.1033888, z: 0.046013832}
   m_Center: {x: 0.23863792, y: 0, z: 0.00000023841858}
---- !u!95 &4782409222476289417
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065118683574804}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3be886d722a1b8d40be5511ff2821b3a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4482601512231437813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065118683574804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1ca96fa613ca0a439fe5929b4e9d249, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactText: Toggle Shutter

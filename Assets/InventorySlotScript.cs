@@ -9,12 +9,21 @@ using UnityEngine.UI;
 
 public class InventorySlotScript : MonoBehaviour,ISelectHandler
 {
-    public ItemsInfo Item;
+    private ItemsInfo Item;
     public UnityEngine.UI.Image img;
     public TMP_Text N, D;
     void Awake()
     {
-        AddItem(Item);
+        Item = null;
+    }
+
+    public bool IsEmpty()
+    {
+        if (Item == null)
+        {
+            return true;
+        }
+        return false;
     }
 
     public void AddItem(ItemsInfo NewItem)
@@ -29,9 +38,18 @@ public class InventorySlotScript : MonoBehaviour,ISelectHandler
         img = null;
     }
 
-    public void OnSelect(BaseEventData eventData) {
-        N.text = Item.Name.text;
-        D.text = Item.Description.text;
+    public void OnSelect(BaseEventData eventData)
+    {
+        if (Item != null)
+        {
+            N.text = Item.Name.text;
+            D.text = Item.Description.text;
+        }
+        else
+        {
+            N.text = "";
+            D.text = "";
+        }
     }
 
 

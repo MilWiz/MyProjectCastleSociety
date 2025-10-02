@@ -57,7 +57,7 @@ namespace HeneGames.DialogueSystem
             //Delay timer
             if(startDialogueDelayTimer > 0f)
             {
-                startDialogueDelayTimer -= Time.deltaTime;
+                startDialogueDelayTimer -= Time.unscaledDeltaTime;
             }
 
             InputUpdate();
@@ -196,7 +196,7 @@ namespace HeneGames.DialogueSystem
                     typing = false;
                 }
 
-                yield return new WaitForSeconds(0.1f * _speed);
+                yield return new WaitForSecondsRealtime(0.1f * _speed);
             }
         }
     }

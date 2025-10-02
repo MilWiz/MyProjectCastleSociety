@@ -31,7 +31,7 @@ public class Game_Manager_for_Options_Menu : MonoBehaviour
     private float MasterVolume, MusicVolume, SFXVolume;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    void Start()
     {
 
         //Adding Listener for each button.
@@ -325,7 +325,7 @@ public class Game_Manager_for_Options_Menu : MonoBehaviour
     public void MasterVolumeLevel()
     {
         MasterVolume = MasterSlider.value;
-        Master.setVolume(MasterVolume / MasterSlider.maxValue);
+        Master.setVolume(MasterSlider.value / MasterSlider.maxValue);
         MaV.FloatValue = MasterVolume;
         //Debug.LogError("MasterVolume: " + MasterVolume + "\n");
     }
@@ -333,7 +333,7 @@ public class Game_Manager_for_Options_Menu : MonoBehaviour
     public void MusicVolumeLevel()
     {
         MusicVolume = MusicSlider.value;
-        Music.setVolume(MusicVolume / MusicSlider.maxValue);
+        Music.setVolume(MusicSlider.value / MusicSlider.maxValue);
         MuV.FloatValue = MusicVolume;
         //Debug.LogError("MusicVolume: " + MusicVolume + "\n");
     }
@@ -341,7 +341,7 @@ public class Game_Manager_for_Options_Menu : MonoBehaviour
     public void SFXVolumeLevel()
     {
         SFXVolume = SFXSlider.value;
-        SFX.setVolume(SFXVolume / SFXSlider.maxValue);
+        SFX.setVolume(SFXSlider.value / SFXSlider.maxValue);
         SV.FloatValue = SFXVolume;
         //Debug.LogError("SFXVolume: " + SFXVolume + "\n");
     }
@@ -350,6 +350,12 @@ public class Game_Manager_for_Options_Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //UnityEngine.Debug.Log("MasterVolume:\t" + MasterVolume);
+        //UnityEngine.Debug.Log("MusicVolume:\t" + MusicVolume);
+        //UnityEngine.Debug.Log("SFXVolume:\t" + SFXVolume);
+        //Master.setVolume(MasterVolume / MasterSlider.maxValue);
+        //Music.setVolume(MusicVolume / MusicSlider.maxValue);
+        //SFX.setVolume(SFXVolume / SFXSlider.maxValue);
         if (Buttons.activeSelf)
         {
             if ((InputManager.instance.UpButton || InputManager.instance.DownButton) && EventSystem.current.currentSelectedGameObject == null)

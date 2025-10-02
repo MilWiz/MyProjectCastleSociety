@@ -411,6 +411,10 @@ MonoBehaviour:
       was associated with poverty. It was also used in sieges because it was cheaper.
     m_Metadata:
       m_Items: []
+  - m_Id: 32652489036439552
+    m_Localized: Are you sure you want to buy this item?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

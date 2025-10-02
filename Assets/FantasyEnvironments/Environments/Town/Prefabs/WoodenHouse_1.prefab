@@ -790,8 +790,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4883387303831820}
-  - component: {fileID: 3582348345432612041}
-  - component: {fileID: 383268417594348790}
   m_Layer: 3
   m_Name: Shutters
   m_TagString: Untagged
@@ -816,41 +814,6 @@ Transform:
   - {fileID: 4838662183925468}
   m_Father: {fileID: 4472924558029580}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &3582348345432612041
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489850618310658}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3be886d722a1b8d40be5511ff2821b3a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &383268417594348790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489850618310658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1ca96fa613ca0a439fe5929b4e9d249, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactText: Toggle Shutters
 --- !u!1 &1819184839753466
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,8 +912,6 @@ GameObject:
   - component: {fileID: 33667481292302056}
   - component: {fileID: 23615027250504200}
   - component: {fileID: 65858387885418888}
-  - component: {fileID: 3943043216650684151}
-  - component: {fileID: 3664169338257560272}
   m_Layer: 3
   m_Name: WoodenHouse_door (2)
   m_TagString: Untagged
@@ -1047,41 +1008,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3922844, y: 2.1082928, z: 0.1}
   m_Center: {x: 0.66402817, y: 0.11868155, z: 0.05212736}
---- !u!114 &3943043216650684151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832490024717426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec43f024d1e732f4c8fec0467c010d1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactText: Toggle Door
---- !u!95 &3664169338257560272
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832490024717426}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a4fda5d8922ef6e40827c8ee0b8c0a72, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1913766027601144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,8 +1126,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1758518201173167956}
-  - component: {fileID: 4125291669655628071}
-  - component: {fileID: 4502524018866845149}
   m_Layer: 0
   m_Name: Shutters2
   m_TagString: Untagged
@@ -1226,38 +1150,3 @@ Transform:
   - {fileID: 4342773510964882}
   m_Father: {fileID: 4472924558029580}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4125291669655628071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6539365105592431200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1ca96fa613ca0a439fe5929b4e9d249, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactText: Toggle Shutters
---- !u!95 &4502524018866845149
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6539365105592431200}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3be886d722a1b8d40be5511ff2821b3a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0

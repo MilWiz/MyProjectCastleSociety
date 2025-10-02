@@ -395,6 +395,10 @@ MonoBehaviour:
     m_Key: VaseDescription
     m_Metadata:
       m_Items: []
+  - m_Id: 32652489036439552
+    m_Key: Do you want to buy this item?
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
