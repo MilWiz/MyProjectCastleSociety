@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4979602271505326}
   - component: {fileID: 33455498918735028}
   - component: {fileID: 23814483382310432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cart1_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 4872717339704644}
   - component: {fileID: 33575461486747532}
   - component: {fileID: 23973932902739980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cart1_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 4886805986209428}
   - component: {fileID: 205286227080168996}
   - component: {fileID: 4991734592941217456}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cart1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 65683041794529776}
   - component: {fileID: 65953407791404032}
   - component: {fileID: 65471883461621042}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cart1_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

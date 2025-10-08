@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4248172299982803766}
   - component: {fileID: 2094311794485094396}
   - component: {fileID: 41372239434417089}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 4241430099398049074}
   - component: {fileID: 2105540019125340664}
   - component: {fileID: 7199473036221448112}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_pillar (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 3796025112038130626}
   - component: {fileID: 1390143284766979848}
   - component: {fileID: 1065173183844504373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7142864478402417991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: large_planter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 3112691767768647867}
   - component: {fileID: 925058586608073841}
   - component: {fileID: 1248888305929295948}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 2720893857771760039}
   - component: {fileID: 154945127731158381}
   - component: {fileID: 2280228150378707280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 2776218211607984140}
   - component: {fileID: 100183689011252422}
   - component: {fileID: 2081061218422958331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 2093876792235404738}
   - component: {fileID: 4245212817225996552}
   - component: {fileID: 2839660571292089653}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 2017388922319340417}
   - component: {fileID: 4331270698777966411}
   - component: {fileID: 2421042616096985974}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 1346230184031565649}
   - component: {fileID: 3839937096069202843}
   - component: {fileID: 2938797629266470822}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1053,7 +1053,7 @@ GameObject:
   - component: {fileID: 643874355505896432}
   - component: {fileID: 3389934095763599162}
   - component: {fileID: 5898234402790955378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_pillar (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,7 +1162,7 @@ GameObject:
   - component: {fileID: 9113558341061909389}
   - component: {fileID: 6457363961336295239}
   - component: {fileID: 4908832202582068090}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1271,7 +1271,7 @@ GameObject:
   - component: {fileID: 8539588444685013360}
   - component: {fileID: 5865447290506569146}
   - component: {fileID: 5540772887748084103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1380,7 +1380,7 @@ GameObject:
   - component: {fileID: 8018977545111247275}
   - component: {fileID: 5237078193560644961}
   - component: {fileID: 6138213261513623900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (138)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 7681379813079707715}
   - component: {fileID: 5583699892442236041}
   - component: {fileID: 3723494611151663809}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_pillar (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1598,7 +1598,7 @@ GameObject:
   - component: {fileID: 7482571894443065932}
   - component: {fileID: 4626208607259145862}
   - component: {fileID: 6751210961177531067}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1707,7 +1707,7 @@ GameObject:
   - component: {fileID: 6944036206998989554}
   - component: {fileID: 5168684771943964216}
   - component: {fileID: 6501049160509962757}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1816,7 +1816,7 @@ GameObject:
   - component: {fileID: 6743927576835111501}
   - component: {fileID: 8823617301101629063}
   - component: {fileID: 7489855073684269754}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1925,7 +1925,7 @@ GameObject:
   - component: {fileID: 6518644338077590236}
   - component: {fileID: 9048320118113244694}
   - component: {fileID: 6922192722880492075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2034,7 +2034,7 @@ GameObject:
   - component: {fileID: 6510898851505219515}
   - component: {fileID: 9061149316963849073}
   - component: {fileID: 6934749465112459084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2142,7 +2142,7 @@ GameObject:
   - component: {fileID: 7555511411762905186}
   - component: {fileID: 7555511411766296642}
   - component: {fileID: 7555511411765199490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: farm_soil_large(empty)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2229,7 +2229,7 @@ GameObject:
   - component: {fileID: 6060943928338866790}
   - component: {fileID: 8356494160531953324}
   - component: {fileID: 7960883666670776977}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2338,7 +2338,7 @@ GameObject:
   - component: {fileID: 6251658421995108488}
   - component: {fileID: 8153394939158858818}
   - component: {fileID: 7828430231512082559}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2447,7 +2447,7 @@ GameObject:
   - component: {fileID: 6316806316547505901}
   - component: {fileID: 8092188604837726759}
   - component: {fileID: 7912749809955368474}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2556,7 @@ GameObject:
   - component: {fileID: 5847120987043837612}
   - component: {fileID: 8557352519211827814}
   - component: {fileID: 7729114196408182363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,7 +2665,7 @@ GameObject:
   - component: {fileID: 5601102389461607234}
   - component: {fileID: 7665104280950642568}
   - component: {fileID: 1481156865920147904}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_pillar (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2774,7 +2774,7 @@ GameObject:
   - component: {fileID: 5474239452917668171}
   - component: {fileID: 7790260398166830465}
   - component: {fileID: 8187005501460580796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2883,7 +2883,7 @@ GameObject:
   - component: {fileID: 4980096589705835899}
   - component: {fileID: 7131498661629657521}
   - component: {fileID: 9185841932518090124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2992,7 +2992,7 @@ GameObject:
   - component: {fileID: 4705414749323125909}
   - component: {fileID: 7397173938538221663}
   - component: {fileID: 8875060150929847394}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3101,7 +3101,7 @@ GameObject:
   - component: {fileID: 4859087277652755279}
   - component: {fileID: 7244608909964228485}
   - component: {fileID: 8721365563675300792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone_fence_01 (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

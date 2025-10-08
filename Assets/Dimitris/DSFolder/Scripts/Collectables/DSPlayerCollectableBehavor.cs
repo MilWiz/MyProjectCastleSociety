@@ -16,6 +16,11 @@ public class DSPlayerCollectableBehavor : MonoBehaviour
 
     public float TotalPoints { get { return m_totalPoints; } }
 
+    public float getTotalPoints()
+    {
+        return m_totalPoints;
+    }
+
     
 
 

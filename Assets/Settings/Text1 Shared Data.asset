@@ -399,6 +399,13 @@ MonoBehaviour:
     m_Key: Do you want to buy this item?
     m_Metadata:
       m_Items: []
+  - m_Id: 34907199952953344
+    m_Key: 'You dont have enough coins to purchase this item! :c
+
+      Come back
+      when you are a little richer. '
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

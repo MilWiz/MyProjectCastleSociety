@@ -20,6 +20,11 @@ public class ShopKeeperBehaviour : MonoBehaviour
     public Button Yes, No;
 
     private ItemsInfo SelectedItem;
+    private int NumberOfCoinsCollected;
+    private int NumberOfCoinsSpent = 0;
+    public DSPlayerCollectableBehavor b;
+    public TMP_Text CoinsPlayerHas;
+    public GameObject YouCantBuyThis;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -66,25 +71,39 @@ public class ShopKeeperBehaviour : MonoBehaviour
         int temp = System.Array.IndexOf(MyItems, SelectedItem);
         if (temp != -1)
         {
-            //MyItems = RemoveElem<ItemsInfo>(MyItems, temp);
-            //Prices = RemoveElem<int>(Prices, temp);
-            for (int i = 0; i < InventorySlots.Length; i++)
+            if (b != null)
             {
-                InventorySlotScript a = InventorySlots[i].GetComponent<InventorySlotScript>();
-                if (a != null)
+                NumberOfCoinsCollected = (int)b.getTotalPoints();
+                if (NumberOfCoinsCollected - NumberOfCoinsSpent >= 0)
                 {
-                    if (a.IsEmpty())
+
+                    //MyItems = RemoveElem<ItemsInfo>(MyItems, temp);
+                    //Prices = RemoveElem<int>(Prices, temp);
+                    NumberOfCoinsSpent = NumberOfCoinsSpent + Prices[temp];
+                    for (int i = 0; i < InventorySlots.Length; i++)
                     {
-                        a.AddItem(SelectedItem);
-                        break;
+                        InventorySlotScript a = InventorySlots[i].GetComponent<InventorySlotScript>();
+                        if (a != null)
+                        {
+                            if (a.IsEmpty())
+                            {
+                                a.AddItem(SelectedItem);
+                                break;
+                            }
+                        }
                     }
+                    RemoveAt<ItemsInfo>(ref MyItems, temp);
+                    RemoveAt<int>(ref Prices, temp);
+                    Destroy(ItemButton[temp].gameObject);
+                    RemoveAt<Button>(ref ItemButton, temp);
+                    SelectedItem = null;
+                }
+                else
+                {
+                    YouCantBuyThis.SetActive(true);
+
                 }
             }
-            RemoveAt<ItemsInfo>(ref MyItems, temp);
-            RemoveAt<int>(ref Prices, temp);
-            Destroy(ItemButton[temp].gameObject);
-            RemoveAt<Button>(ref ItemButton, temp);
-            SelectedItem = null;
         }
     }
     private void NoButtonListner()
@@ -139,6 +158,9 @@ public class ShopKeeperBehaviour : MonoBehaviour
         // Update is called once per frame
         void Update()
     {
-        
+        if (NumberOfCoinsCollected != null)
+        {
+            CoinsPlayerHas.text = "" + (NumberOfCoinsCollected - NumberOfCoinsSpent);
+        }
     }
 }

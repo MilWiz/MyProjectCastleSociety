@@ -79,6 +79,9 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"INterra"
+	"st: Pause"
+	"st:"
 	"st: Fishing"
 	"st: Hammer"
 	"st: Helmet"
@@ -96,8 +99,6 @@ recentSearches = [
 	"st: Cross"
 	"st: LongBo"
 	"st: PlayerCrouching"
-	"st: PlayerRun"
-	"st: Pla"
 ]
 searchItemFavorites = [
 ]
@@ -112,3 +113,4 @@ helperWidgetCurrentArea = "all"
 disabledIndexers = ""
 minIndexVariations = 2
 findProviderIndexHelper = true
+itemIconSize = 32
